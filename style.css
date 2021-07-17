@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    background-image: url("./archivos/estructura compuestas por cuadrados, triangulos que al final forman una circunsferencia.jpg");
+    color: white;
+    min-height: 100%;
+}
+header {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.0) 100%);
+    opacity: 1;
+    text-align: center;
+    margin: 0px;
+    padding: 10px;;
+    width: 100%;
+    height: 100px;
+}
+body {
+    font-size: 1.7rem;
+    text-align: center;
+    height: 1000px;
+}
+main {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    flex: inline-flex;
+    flex-wrap: wrap;
+}
+@media (min-width:1000px){
+p {
+    width: 100%;
+    padding: 0px 100px;
+    margin: 10px;
+}
+form {
+    color: black;
+    background-color: #07FAD1;
+    background: linear-gradient(to top, rgba(7, 250, 209, 0.7) 100%, rgba(0, 0, 0, 0.0) 100%);
+    opacity: 1;
+    width: 450px;
+    height: 100%;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    padding: 10px;
+    display: flexbox;
+    justify-content: space-between;
+    flex: inline-flex;
+}
+#wrapper {
+    margin: 0px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+#one {
+    grid-column: 1;
+  grid-row: 0;
+}
+#two {
+    grid-column: 2;
+    grid-row: 1;
+}
+#third {
+    grid-column: 2;
+    grid-row: 2;
+}
+footer {
+    height: 50px;
+    background-color: black;
+    width: 100%;
+    margin-top: 1200px;
+}
+footer > p {
+    margin-top: 15px;
+    position: relative;
+}
+input {
+    border-radius: 5px;
+    border: solid white;
+    margin: 10px;
+}
+main > div {
+    margin: 15px;
+    padding: 0px;
+    display: grid;
+
+}
+button {
+    background-color: transparent;
+    border: solid white;
+    border-radius:25px; 
+    padding: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+button:hover {
+    background-color: #FA131C;
+    border: solid red 3px;
+    border-radius: 10px;
+}
+button:active {
+    background-color: rgba(250, 0, 0, 0.7);
+    border: transparent 5px;
+    padding: 10px;
+    border-radius: 25px;
+}
+img {
+    display: flex;
+    position: absolute;
+    width: 300px;
+    height: 500px;
+    margin-top: 1500px;
+    margin-left: 150px;
+}
+}

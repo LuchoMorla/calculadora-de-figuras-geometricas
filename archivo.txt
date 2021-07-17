@@ -1,0 +1,21 @@
+//var ladoCuadrado = 5;
+//txt = document.getElementById("elemento");
+//txt.innerHTML = "esto miden los lados del <strong>cuadrado</strong> " + ladoCuadrado;
+
+// pasando a funciones
+
+//peritri = document.getElementById("periTri");
+//peritri.innerHTML = "El perimetro del triangulo es: " + perimetroTriangulo + " cm";
+//console.log("El perimetro del triangulo es: " + perimetroTriangulo + " cm");
+//var altura = 5.5;
+
+//areatri = document.getElementById("areaTri");
+//areatri.innerHTML = "El area del triangulo es: " + areaTriangulo + " cm";
+// console.log("El area del triangulo es: " + areaTriangulo + " cm");
+
+//console.log("El valor de pi es" + PI);
+//console.log("El perimetro del circulo es " + perimetroCirculo);
+//console.log("El diametro es" + diametro);
+//console.log("El radio es" + radio);
+
+// console.log("El perimetro del circulo es: " + perimetroCirculo + " cm");
