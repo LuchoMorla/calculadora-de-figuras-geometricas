@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras Geométricas | Taller</title>
+    <link rel="stylesheet" href="./style.css" media="screen and (min-width:800px">
+    <link rel="stylesheet" href="./celular.css" media="screen and (min-width:320px)">
+    <link rel="stylesheet" href="./tablet.css" media="screen and (min-width: 375px)">
+    <link rel="stylesheet" href="./tabletGrande.css" media="screen and (min-width: 425px)">
+    <link rel="stylesheet" href="./pantalla.css" media="screen and (min-width: 1440px)">
+    <link rel="stylesheet" href="./4k.css" media="screen and (min-width: 2560px)">
+</head>
+<body>
+    <header>
+    <h1> Figuras Geométricas</h1>
+    <h2>Calculadora de Figuras geometricas</h2>
+    </header>
+    <main class="wrapper">
+        <div class="one">
+    <form for="inputCuadrado">
+    <!--<p id="elemento"></p>-->
+    <h3>Calcula el Area y Perimetro de un cuadrado</h3>
+    <label for="inputCuadrado">
+        Escribe cuanto mide tu cuadrado
+    </label>
+    <input type="number" id="inputCuadrado"/><br>
+    <button type="button" onclick="calculaPerimetroCuadrado()" >
+        calcula el perimetro del cuadrado
+    </button >
+    <p>resultado: </br>
+        <p id="periCua"></p>
+    </p>
+    <button type="button" onclick="calculaAreaCuadrado()">
+        calcula el area del cuadrado
+    </button>
+    <p>resultado:</br>
+        <p  id="areaCua"></p>
+    </p>
+</form>
+</div>
+<div class="two">
+<form for="inputTriangulo">
+<p for="inputTriangulo">
+    <h3>Calcula el Perimetro y el Area de un Triangulo</h3>
+    <label for="inputTriangulo">
+        Escribe los 3 lados y la altura del triangulo:
+    </label>
+    <p>Lado 2<input type="number" id="inputTriangulo-lado1">
+</p>
+<p>Lado 2<input type="number" id="inputTriangulo-lado2">
+</p>
+<p>Base<input type="number" id="inputTriangulo-base">
+</p>
+<p>Altura<input type="number" id="inputTriangulo-altura">
+</p>
+    <button type="button" onclick="calculaPerimetroTriangulo()">
+        calcula el perimetro del Triangulo
+    </button>
+    <button type="button" onclick="calculaAreaTriangulo()" >
+        calcula el area del Triangulo
+    </button>
+    <br>resultado:</br> <p id="periTri">
+    </p></p>
+    <br>resultado:</br> <p id="areaTri">
+    </p></p>
+</form>
+</div>
+<div class="third">
+<form for="inputCirculo">
+    <h3>
+    Calclula el Perimetro del Circulo y el Area del circulo
+</h3>
+    <label for="inputCirculo">
+       Ingresa el radio de tu circulo
+    </label><br>
+    <input type="number" id="inputCirculo"><br>
+    <button type="button" onclick="calculaPerimetroCirculo()">
+        calcula el perimetro del Circulo
+    </button>
+    <button type="button" onclick="calculaAreaCirculo()" >
+        calcula el area del circulo
+    </button>
+    <p>resultado: <br>
+        <p id="periCir">
+        </p></p>
+    <p>resultado: <br>
+    <p id="areaCir">
+    </p></p>
+</form>
+</div>
+</main>
+<section>
+    <img src="https://i0.wp.com/matematicascercanas.com/wp-content/uploads/2016/07/taking-sides.png?resize=550%2C1066&ssl=1" alt="cuadrado y triangulo discuten por quien tiene más lados, llega el circulo ">
+    </picture>
+</section>
+<footer>
+   <p> hecho por: LuchoMorla</p>
+</footer>
+    <script src="figuras.js"></script>
+</body>
+</html>
