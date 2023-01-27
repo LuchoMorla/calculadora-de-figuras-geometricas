@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="https://unpkg.com/vue@3"></script>
+<script src="https://unpkg.com/vue-router@4"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -95,9 +97,24 @@
     <img src="https://i0.wp.com/matematicascercanas.com/wp-content/uploads/2016/07/taking-sides.png?resize=550%2C1066&ssl=1" alt="cuadrado y triangulo discuten por quien tiene más lados, llega el circulo ">
     </picture>
 </section>
+<section class="one" id="tiempoDeViaje" style="margin-top: 100%;">
+    <div>
+        <label for="distancia">distancia | KM</label>
+        <input type="number" v-model="distacia" id="distancia" name="TiempoViaje.distancia">
+    </div>
+    <div>
+        <label for="velocidad">Velocidad | KM/h</label>
+        <input type="number" v-model="velocidad" id="velocidad" name="TiempoViaje.velocidad">
+    </div>
+    <div>
+        <p id="tiempoDeViajeEnHorasYMinutos"></p>
+    </div>
+    <button id="boton" style="color: white;">Calcular Tiempo de Viaje</button>
+</section>
 <footer>
    <p> hecho por: LuchoMorla</p>
 </footer>
     <script src="figuras.js"></script>
+    <script  src="./Js/tiempoDeViaje.js"></script>
 </body>
 </html>
